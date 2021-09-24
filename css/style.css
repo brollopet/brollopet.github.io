@@ -1,70 +1,150 @@
-body{
-    background-color: #2A294A;
+body {
+  background-color: #2a294a;
 }
-.content{
-    padding: 10px 100px 50px;
+.content {
+  padding: 10px 100px 50px;
 }
 .row {
-    display: flex;
-    justify-content: center;
-    align-items: normal;
+  display: flex;
+  justify-content: center;
+  align-items: normal;
 }
 
-.col{
-    flex: 50%;
-    padding: 20px;
-    font-family: 'Josefin Sans', sans-serif;
+.col {
+  flex: 50%;
+  padding: 20px;
+  font-family: "Josefin Sans", sans-serif;
 }
-.swe{
-    color: #ffffff;
+@media only screen and (max-width: 700px) {
+  .col {
+    flex: 100%;
+  }
 }
-.ger{
-    color: #f9f9f9;
+.swe {
+  color: #ffffff;
 }
-.title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.ger {
+  color: #f9f9f9;
+}
+.image {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.amanda {
+  background-image: url(../img/amanda2.jpeg);
+}
+.nils {
+  background-image: url(../img/nils.jpeg);
+}
+.clara {
+  background-image: url(../img/clara.jpg);
+}
+.victor {
+  background-image: url(../img/victor.jpeg);
+}
+.fabian {
+  background-image: url(../img/fabian.jpeg);
+}
+.lotta {
+  background-image: url(../img/lotta.jpg);
+}
+.kontakter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: baseline;
+  padding: 10px 20px 50px;
+  max-width: 1000px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+@media only screen and (max-width: 700px) {
+  .kontakter {
     flex-direction: column;
-    font-family: 'League Script', cursive;
-    color: #E2C5B7;
+    flex-wrap: unset;
+  }
 }
-h1{
-    font-size: 74px;
+.info {
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  position: absolute;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.4);
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  transition: opacity 100ms ease-in;
 }
-h2{
-    color: #E2C5B7;
-    font-family: 'League Script', cursive;
-    font-size: 34px;
+.info:hover {
+  opacity: 1;
 }
-h3{
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 28px;
+@media only screen and (max-width: 700px) {
+  .info {
+    opacity: 1;
+  }
 }
-.section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-family: 'League Script', cursive;
-    color: #E2C5B7;
-    padding: 50px 100px 10px;
+
+.kontakt {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #ffffff;
+  width: 33%;
+  height: 250px;
+  font-family: "Josefin Sans", sans-serif;
 }
-strong{
-    color: #E2C5B7;
+.kontakt p {
+  margin: 5px;
 }
-li,p{
-    line-height: 25px;
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "League Script", cursive;
+  color: #e2c5b7;
 }
-li{
-    margin-bottom: 10px;
+h1 {
+  font-size: 74px;
 }
-a{
-    color: #E2C5B7;
+h2 {
+  color: #e2c5b7;
+  font-family: "League Script", cursive;
+  font-size: 34px;
 }
-.kontakter{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 28px;
+}
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "League Script", cursive;
+  color: #e2c5b7;
+  padding: 50px 100px 10px;
+}
+strong {
+  color: #e2c5b7;
+}
+li,
+p {
+  line-height: 25px;
+}
+li {
+  margin-bottom: 10px;
+}
+a {
+  color: #e2c5b7;
 }
