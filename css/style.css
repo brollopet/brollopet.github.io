@@ -2,7 +2,7 @@ body{
     background-color: #2A294A;
 }
 .content{
-    padding: 50px 100px;
+    /* padding: 50px 100px; */
 }
 .row {
     display: flex;
@@ -48,6 +48,7 @@ h3{
     flex-direction: column;
     font-family: 'League Script', cursive;
     color: #E2C5B7;
+    padding: 50px 100px;
 }
 strong{
     color: #E2C5B7;
