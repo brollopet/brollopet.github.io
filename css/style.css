@@ -23,7 +23,6 @@ body {
   }
 }
 
-
 .col {
   flex: 50%;
   padding: 20px;
@@ -189,4 +188,16 @@ a {
   .footer-img {
     width: 90%;
   }
+}
+
+.sectionBackgroundDark {
+  background-color: #2a294a;
+}
+.sectionBackgroundLight {
+  background-color: #494884;
+}
+.cooleKante {
+  border: #e2c5b7 2px dashed;
+  border-radius: 25px;
+  margin: 40px;
 }
