@@ -1,5 +1,5 @@
 body {
-  background-color: #2a294a;
+  background-color: #ffffff;
 }
 .content {
   padding: 10px 100px 50px;
@@ -36,10 +36,10 @@ body {
 }
 
 .swe {
-  color: #ffffff;
+  color: #000000;
 }
 .ger {
-  color: #c4c4c4;
+  color: #224608;
 }
 .image {
   height: 100%;
@@ -133,7 +133,7 @@ body {
   align-items: center;
   flex-direction: column;
   font-family: "League Script", cursive;
-  color: #e2c5b7;
+  color: #224608;
   text-align: center;
 }
 
@@ -141,7 +141,7 @@ h1 {
   font-size: 74px;
 }
 h2 {
-  color: #e2c5b7;
+  color: #224608;
   font-family: "League Script", cursive;
   font-size: 34px;
 }
@@ -155,7 +155,7 @@ h3 {
   align-items: center;
   flex-direction: column;
   font-family: "League Script", cursive;
-  color: #e2c5b7;
+  color: #224608;
   padding: 50px 100px 10px;
 }
 @media only screen and (max-width: 600px) {
@@ -164,7 +164,7 @@ h3 {
   }
 }
 strong {
-  color: #e2c5b7;
+  color: #224608;
 }
 li,
 p {
@@ -174,7 +174,7 @@ li {
   margin-bottom: 10px;
 }
 a {
-  color: #e2c5b7;
+  color: #224608;
 }
 
 .footer {
@@ -191,13 +191,17 @@ a {
 }
 
 .sectionBackgroundDark {
-  background-color: #2a294a;
+  background-color: #ffffff; /* #C5F4A4; */
 }
 .sectionBackgroundLight {
-  background-color: #494884;
+  background-color: #ffffff; /* #D1F6B6; */
 }
 .cooleKante {
-  border: #e2c5b7 2px dashed;
+  border: #224608 2px dashed;
   border-radius: 25px;
   margin: 40px;
+}
+
+.seperatorImg{
+  align-items: center;
 }
